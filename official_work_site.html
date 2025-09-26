@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X Terralynx Software Ltd | Tech Solutions</title>
+  <style>
+    /* --- RESET --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* --- HEADER --- */
+    header {
+      background: linear-gradient(135deg, #e63946, #ffb703);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 8px;
+    }
+
+    /* --- NAVBAR --- */
+    nav {
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #222;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e63946;
+    }
+
+    /* --- MAIN CONTAINER --- */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      background: #fff8f0;
+    }
+
+    .product {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 280px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .product h3 {
+      margin: 15px 0 8px;
+      color: #e63946;
+    }
+
+    .product p {
+      padding: 0 15px 15px;
+      font-size: 0.95rem;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin: 10px 0 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebf57;
+    }
+
+    /* --- CONTACT FORM --- */
+    .contact-form {
+      max-width: 450px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #e63946;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 12px;
+      background: #e63946;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #c92c3a;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* --- RESPONSIVE --- */
+    @media (max-width: 768px) {
+      nav a {
+        display: inline-block;
+        margin: 8px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>X-Terralynx Software Ltd</h1>
+    <p>Transforming Ideas into Cutting-Edge Software Solutions</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/280x180?text=Frontend+Development" alt="100-LEVEL ASSIGNMENT">
+      <h3>100-LEVEL ASSIGNMENT</h3>
+      <p>Your Grade, Our Priority!!!.</p>
+      <a class="whatsapp-btn" href="https://wa.me/2347070844360?text=Hi!%20I'm%20interested%20in%20Frontend%20Development%20services">Make Inquiry</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/280x180?text=Backend+Development" alt="200-LEVEL ASSIGNMENT">
+      <h3>200-LEVEL ASSIGNMENT</h3>
+      <p>Your Grade, Our Priority!!!.</p>
+      <a class="whatsapp-btn" href="https://wa.me/2347070844360?text=Hi!%20I'm%20interested%20in%20Backend%20Development%20services">Make Inquiry</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/280x180?text=Game+Development" alt="300-LEVEL ASSIGNMENT">
+      <h3>300-LEVEL ASSIGNMENT</h3>
+      <p> Your Grade, Our Priority!!!.</p>
+      <a class="whatsapp-btn" href="https://wa.me/2347070844360?text=Hi!%20I'm%20interested%20in%20Game%20Development%20services">Make Inquiry</a>
+    </div>
+  </section>
+
+  <!-- BOOK LESSON -->
+  <div style="text-align:center; margin:30px;">
+    <a href="https://wa.me/2347070844360?text=Hi!%20I'd%20like%20to%20book%20a%20lesson%20with%20X%20Terralynx%20Software%20Ltd" 
+       style="background:#ffb703; color:#222; padding:15px 25px; border-radius:8px; text-decoration:none; font-weight:bold;">
+      📘 Book Your Space Now 
+    </a>
+  </div>
+
+ <!-- VISIT WEBSITE -->
+<div style="text-align:center; margin-bottom:40px;">
+  <a href="official2.html" target="_blank"
+     style="background:#222; color:white; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">
+    🌐 Visit Our Official Website
+  </a>
+</div>
+
+
+  <!-- CONTACT FORM -->
+  <div class="contact-form" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 X Terralynx Software Ltd. All rights reserved.</p>
+    <p>Powered by <a href="https://github.com/degeorgecodexworld-dev/Alert-app/blob/97e57991c872ba15dc2d54cf3f9081b8e2deec55/index.css" style="color:#ffb703; text-decoration:none;">X Terralynx Software Ltd</a></p>
+  </footer>
+
+</body>
+</html>
